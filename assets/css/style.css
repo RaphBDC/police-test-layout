@@ -1,0 +1,213 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+html,body, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+} 
+.clearfix:after {
+	clear: both;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+.navigation .container {
+	position: relative;
+}
+
+.police {
+	display: inline-block;
+	padding-top: 50px;
+}
+.police h1 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 60px;
+	border-bottom: 10px solid #ff3f3f;
+	border-right: 1px solid #d8d8d8;
+	transition: color .3s;
+}
+
+.police h2 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5px;
+	font-size: 10px;
+	color: #888888;
+	text-transform: uppercase;
+}
+
+.menu {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-transform: uppercase;
+	border-bottom: 10px solid #ff3f3f;	
+}
+
+.menu ul {
+
+	margin: 0;
+	padding: 0;
+}
+.menu ul li {
+	font-weight: 600;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+	transition: color .3s;
+}
+
+.menu ul li:hover, .police h1:hover {
+	color: #ff3f3f;
+}
+
+.intro-banner {
+	position: relative;
+	background-image: url(http://media.boingboing.net/wp-content/uploads/2016/01/4000.jpg);
+	background-size: 100%; 
+	background-position: 0 -40px;
+	height: 550px;
+}
+
+.banner-msg {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ffffff;
+}
+
+.banner-msg h2 {
+	font-size: 100px;
+}
+
+.banner-msg h3 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.intro-banner .read-more-button {
+	position: absolute;
+	bottom: 100px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	padding: 10px 20px;
+	font-size: 14px;
+	transition: color .3s, background-color .3s;
+}
+
+.intro-banner .read-more-button:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #ff3f3f;
+}
+
+.sec {
+	border-top: 1px solid #d8d8d8;
+}
+
+.inst {
+	font-size: 0;
+	text-align: center;
+}
+
+.section {
+	display: inline-block;
+	max-width: 32%;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.section h2 {
+	font-size: 50px;
+	padding: 30px;
+	border-top: 10px solid #ff3f3f;
+	border-left: 1px solid #d8d8d8;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.section h3 {
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.section p {
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: #888888;
+}
+
+.section + .section {
+	margin-left: 2%;	
+}
+
+.inst .read-more-button {
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: 1px solid #000000;
+	color: #000000;
+	padding: 10px 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 14px;
+	transition: color .3s, background-color .3s;	
+}
+
+.inst .read-more-button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.blog-banner {
+	position: relative;
+	border-top: 10px solid #ff3f3f;
+	background-image: url("http://media.spokesman.com/photos/2014/02/16/cit16_SRX_POLICE_CARS.jpg");
+	background-size: 100%;
+	background-position: 0 -170px;
+	height: 300px;
+}
+
+.blog-banner-msg {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.blog-banner-msg h3 {
+	font-size: 48px;
+}
